@@ -1,0 +1,15 @@
+# Secrets: never upload these.
+# .env holds the bot's usage key; .env.admin holds your Lit account key during setup.
+.env
+.env.*
+!.env.example
+
+# Private project notes (customer conversations). Remove this line to publish it.
+PROJECT_BRIEF.md
+
+# Installed packages (recreated by "npm install")
+node_modules/
+
+# Mac and log clutter
+.DS_Store
+*.log

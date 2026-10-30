@@ -1,0 +1,25 @@
+{
+  "name": "bot-guard-lit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Testnet demo: a trading bot that never holds its private key. A Lit Action checks every trade before signing.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/guard.test.js",
+    "check-account": "node scripts/check-account.js",
+    "setup": "node scripts/setup.js",
+    "balance": "node scripts/balance.js",
+    "cid": "node scripts/print-cid.js",
+    "save-key": "node scripts/save-key.js",
+    "verify": "node scripts/verify.js",
+    "bot": "node bot.js",
+    "attack": "node attacker.js",
+    "check-secrets": "node scripts/check-secrets.js"
+  },
+  "dependencies": {
+    "ethers": "5.8.0"
+  }
+}
