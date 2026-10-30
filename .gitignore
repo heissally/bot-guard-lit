@@ -7,6 +7,9 @@
 # Private project notes (customer conversations). Remove this line to publish it.
 PROJECT_BRIEF.md
 
+# The demo video project: large recordings, voice clips and renders. Not part of the bot.
+video/
+
 # Installed packages (recreated by "npm install")
 node_modules/
 
